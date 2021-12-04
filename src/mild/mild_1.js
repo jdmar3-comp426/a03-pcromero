@@ -54,7 +54,7 @@ export function maxAndMin(numbers) {
         }
     }
 
-    return "{min: " + min + ", max: " + max + "}";
+    return "{ max: " + max + ", min: " + min + " }";
 
 }
 
@@ -75,7 +75,7 @@ export function countArray(array) {
         if (track[element]) {
             track[element]++;
         } else {
-            track[item] = 1;
+            track[element] = 1;
         }
     });
 
